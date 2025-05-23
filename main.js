@@ -9,11 +9,11 @@ btn.addEventListener('click' , (ev) => {
         newDiv.classList.add('card')
         par.appendChild(newDiv)
         let rem = document.createElement('img');
-        rem.src = '../Icons/rubbish-bin.png';
+        rem.src = 'Icons/rubbish-bin.png';
         newDiv.appendChild(rem); 
         rem.classList.add('Rubbish_icon');
         let comp = document.createElement('img');
-        comp.src = '../Icons/blackTick.png';
+        comp.src = 'Icons/blackTick.png';
         newDiv.appendChild(comp);
         comp.classList.add('tick_icon');
         comp.onclick = (ev) => {
